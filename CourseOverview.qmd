@@ -1,0 +1,18 @@
+---
+title: "Course Overview"
+author: "Adejumo Ridwan Suleiman"
+format: beamer
+editor: visual
+---
+
+## What You Will Learn
+
+## What is Shiny
+
+## Why do we need Shiny
+
+## Course Requirements
+
+## Who is this Course for
+
+## Resources
