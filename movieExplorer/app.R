@@ -2,8 +2,7 @@ library(shiny)
 library(tidyverse)
 library(ggplot2movies)
 
-dataset <- movies |> 
-  select(-c(6:17))
+dataset <- movies
 
 ui <- fluidPage(
   pageWithSidebar(
@@ -15,6 +14,7 @@ ui <- fluidPage(
       #slider inputs (year and rating)
       sliderInput(inputId = "year", label = "Year", min = 1893, max = 2005, value = c(1960,2005),step = 1),
       sliderInput(inputId = "rating", label = "Rating", min = 1, max = 10, value = c(6,10),step = 0.1),
+      
       h4("Genres"),
       
       #checkbox inputs 
@@ -53,3 +53,22 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
+
+
+library(shiny)
+
+ui <- fluidPage(
+  pageWithSidebar(
+    headerPanel("Title"),
+    sidebarPanel(),
+    mainPanel()
+  )
+)
+
+server <- function(input, output, session) {
+  
+}
+
+shinyApp(ui, server)
+
+
