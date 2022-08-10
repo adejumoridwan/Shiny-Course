@@ -1,0 +1,13 @@
+name: movieExplorer
+title: movieExplorer
+username:
+account: ridwan-adejumo-suleiman
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6764752
+bundleId: 6187919
+url: https://ridwan-adejumo-suleiman.shinyapps.io/movieExplorer/
+when: 1660135286.39252
+lastSyncTime: 1660135286.39254
+asMultiple: FALSE
+asStatic: FALSE
